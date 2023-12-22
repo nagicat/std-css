@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nagicat/std-css/std.min.css">
+    <title>Home - std.css</title>
+</head>
+<body>
+    <header>
+        <h1>Home</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./elements.html">Elements</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <h2>Index</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#use-case">Use case</a></li>
+            <li><a href="#how-to-use">How to use</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <h1 id="about">📝About</h1>
+        <p>std.cssは、クラス名の指定を必要としないCSSフレームワークです。デモは<a href="./elements.html">Elements</a>で見ることができます。</p>
+        <blockquote>
+            <p>このサイトはstd.cssによってスタイリングされています。</p>
+        </blockquote>
+    </div>
+
+    <div>
+        <h1 id="features">✨Features</h1>
+        
+        <h2>タグ構造依存無し</h2>
+        <p>特定のタグの中でスタイルが変化する要素を持ちません。そのため、フレームワークの利用方法を学習する必要がありません。</p>
+
+        <h2>超低容量</h2>
+        <p>std.cssの容量は県時点で1.06kbです。</p>
+    </div>
+
+    <div>
+        <h1 id="use-case">💡Use case</h1>
+
+        <ul>
+            <li>シンプルなブログ</li>
+            <li>自己紹介サイト</li>
+        </ul>
+    </div>
+
+    <div>
+        <h1 id="how-to-use">🎓How to use</h1>
+        <p>std.cssを利用するいくつかの方法を紹介します。</p>
+
+        <h2>Pure html</h2>
+        <p>手書きのHTMLで利用する場合は、<code>meta</code>タグの中に以下のタグを追加します。</p>
+<pre>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nagicat/std-css/std.min.css"&gt;</pre>
+
+        <h3>Hello world</h3>
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nagicat/std-css/std.min.css"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello world!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+<!-- 未開発
+        <h2>Zola</h2>
+        <p><a href="https://www.getzola.org/">Zola</a>で利用する場合は<a href="https://github.com/nagicat/zola-salt">Salt</a>テーマで利用できます。ブログとして利用する場合はこちらの方法がお勧めです。</p>
+-->
+    </div>
+
+    <footer>
+        <span>&copy; NagiCat.</span>
+    </footer>
+</body>
+</html>
